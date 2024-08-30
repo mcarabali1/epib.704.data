@@ -1,12 +1,12 @@
 Package: epib.704.data
-Title: epib.704.data
+Title: Data for EPIB 704 Assignments
 Version: 1.0
 Authors@R: 
-    person("Edgar", "Ortiz-Brizuela", , "edgar.ortiz-brizuela@mail.mcgill.ca", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0001-7169-8459"))
-    person("Mabel", "Carabali", , "mabel.carabali@mcgill.ca", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0002-9171-0483"))
-Description: R package with data for EPIB 704 assignments.
+    c(person("Edgar", "Ortiz-Brizuela", email = "edgar.ortiz-brizuela@mail.mcgill.ca", role = c("aut"),
+           comment = c(ORCID = "0000-0001-7169-8459")),
+    person("Mabel", "Carabali", email = "mabel.carabali@mcgill.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-9171-0483")))
+Description: This R package contains datasets specifically for use in EPIB 704 assignments, including data related to various epidemiological studies and assignments.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -14,4 +14,5 @@ RoxygenNote: 7.3.2
 Depends: 
     R (>= 2.10)
 Imports:
+    tibble
 LazyData: true
