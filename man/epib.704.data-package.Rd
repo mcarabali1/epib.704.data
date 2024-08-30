@@ -9,7 +9,12 @@
 This R package contains datasets specifically for use in EPIB 704 assignments, including data related to various epidemiological studies and assignments.
 }
 \author{
-\strong{Maintainer}: Edgar Ortiz-Brizuela \email{edgar.ortiz-brizuela@mail.mcgill.ca} (\href{https://orcid.org/0000-0001-7169-8459}{ORCID})
+\strong{Maintainer}: Mabel Carabali \email{mabel.carabali@mcgill.ca} (\href{https://orcid.org/0000-0002-9171-0483}{ORCID})
+
+Authors:
+\itemize{
+  \item Edgar Ortiz-Brizuela \email{edgar.ortiz-brizuela@mail.mcgill.ca} (\href{https://orcid.org/0000-0001-7169-8459}{ORCID})
+}
 
 }
 \keyword{internal}
