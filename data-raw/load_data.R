@@ -1,24 +1,24 @@
 
 # 1. plato
-plato.url = "https://raw.githubusercontent.com/mcarabali1/EPIB-704/main/data/Plato_FDA_470.csv"
-Plato<-read.csv(url(plato.url))
+plato<-read.csv("data-raw/Plato_FDA_470.csv")
 
 # 2. births
-births.url = "https://github.com/mcarabali1/EPIB-704/blob/main/data/births.csv"
-births<-read.csv(url(births.url))
+births<-read.csv("data-raw/births.csv")
 
-# 3. sample
-sampledata.url = "https://github.com/mcarabali1/EPIB-704/blob/main/data/sampledata.csv"
-sampledata<-read.csv(url(sampledata.url))
+# 3. sampledata
+sampledata<-read.csv("data-raw/sampledata.csv")
 
-# 4. sb
-sb.data1.url = "https://github.com/mcarabali1/EPIB-704/blob/main/data/sb.data1.csv"
-sb.data1<-read.csv(url(sb.data1.url))
+# 4. sb.data1
+sb.data1<-read.csv("data-raw/sb.data1.csv")
 
-# 5. sb
-db_pd_sep22pm.url = "https://github.com/mcarabali1/EPIB-704/blob/main/data/db_pd_sep22pm.dta"
-db_pd_sep22pm<-haven::read_dta(url(db_pd_sep22pm.url))
+# 5. db_pd_sep22pm
+db_pd_sep22pm<-haven::read_dta("data-raw/db_pd_sep22pm.dta")
 
 
 # usethis
-usethis::use_data(plato,  overwrite = TRUE)
+usethis::use_data(plato,  
+                  births,
+                  sampledata,
+                  sb.data1,
+                  db_pd_sep22pm,
+                  overwrite = TRUE)
