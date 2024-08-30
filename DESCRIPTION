@@ -1,17 +1,17 @@
 Package: epib.704.data
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: epib.704.data
+Version: 1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Edgar", "Ortiz-Brizuela", , "edgar.ortiz-brizuela@mail.mcgill.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7169-8459"))
+    person("Mabel", "Carabali", , "mabel.carabali@mcgill.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-9171-0483"))
+Description: R package with data for EPIB 704 assignments.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Depends: 
     R (>= 2.10)
 Imports:
-    usethis
 LazyData: true

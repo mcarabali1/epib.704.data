@@ -2,7 +2,7 @@ library(usethis)
 library(haven)
 
 # 1. plato
-plato<-read.csv("data-raw/Plato_FDA_470.csv")
+plato<-read.csv("data-raw/plato_FDA_470.csv")
 
 # 2. births
 births<-read.csv("data-raw/births.csv")

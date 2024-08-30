@@ -1,3 +1,3 @@
-# data.704
-Datasets and functions used in EPIB 704 course
-Package built based on Chapter 12 of rstudio4edu https://rstudio4edu.github.io/rstudio4edu-book/data-pkg.html
+# epib.704.data
+R package with data for EPIB 704 assignments
+Package developed using the instructions in the rstudio4edu book https://rstudio4edu.github.io/rstudio4edu-book/data-pkg.html
