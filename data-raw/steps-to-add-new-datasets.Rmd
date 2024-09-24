@@ -1,0 +1,79 @@
+---
+title: "Steps to add new datasets"
+author: "Edgar Ortiz Brizuela"
+date: "2024-09-24"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+1. Copy and paste the original dataset in the `data-raw` folder.
+2. Open the `load_data.R` file in the `data-raw folder`
+3. Write the code needed to read the new dataset.  
+
+```{r}
+# EXAMPLE:
+# covidkenya<-read.csv("data-raw/covidkenya.csv")
+```
+
+4. Include the name of the dataset that was read in the usedata function in the same file.
+
+```{r}
+# EXAMPLE:
+# use_data(anscombe_set1, overwrite = TRUE)
+```
+
+5. Run the `load_data.R` script and save it. A cleaned up .rda data file is now created in the folder called data/.
+6. Verify all data sets made it in your package by loading the package (Build pane > Click More > Load All or in the console using devtools::load_all()). And then call your dataset (e.g., plato, it should be in the environment, not needed as data, it is just loaded)
+7. In the RStudio Build pane > click the `Check` button. The only warning should be that we need documentation from the new dataset, we will add it in the next steps. Another option is to use in the console: devtools::check(document=FALSE)).
+8. Document the dataset:7. Run in the console usethis::use_r() with your data set name in quotes, which will generate a new .R script that lives in an R/ folder.
+
+```{r}
+# EXAMPLE
+# usethis::use_r("covidkenya")
+```
+
+9. In this new .R script, copy and paste the information from another R file (eg, covidkenya) in the same R/ folder and update the information accordingly. 
+10. The menu is drafted but not yet accessible by the package. In the console, run devtools::document() to make the Roxygen comments “concrete”.
+11. This generates a .Rd file, that makes our documentation accessible to the package. Our official documentation lives inside a newly-generated man/ folder. 
+12. Confirm the code worked: 
+```{r}
+# EXAMPLE
+# ?covidkenya
+```
+
+13. Now, open the DESCRIPTION file and update the version number.
+14. Check again for any issue using devtools::check(document=FALSE)) in the console. 
+15. Add the package documentation using the following code in the console (answer absolutely yes):
+
+```{r}
+usethis::use_package_doc()
+usethis::use_tibble()
+devtools::document()
+```
+
+16. Build and install the official package to make it official by running the following code:
+
+```{r}
+devtools::install()
+```
+
+17. Push everything to GitHub using GitHub desktop.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

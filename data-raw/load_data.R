@@ -16,6 +16,8 @@ sbdata1<-read.csv("data-raw/sb.data1.csv")
 # 5. db_pd_sep22pm
 db_pd_sep22pm<-haven::read_dta("data-raw/db_pd_sep22pm.dta")
 
+# 6. covidkenya, answer yes
+covidkenya<-read.csv("data-raw/covidkenya.csv")
 
 # usethis
 usethis::use_data(plato,  
@@ -23,4 +25,5 @@ usethis::use_data(plato,
                   sampledata,
                   sbdata1,
                   db_pd_sep22pm,
+                  covidkenya,
                   overwrite = TRUE)

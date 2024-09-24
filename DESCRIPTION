@@ -1,6 +1,6 @@
 Package: epib.704.data
 Title: Data for EPIB 704 Assignments
-Version: 1.0
+Version: 1.1
 Authors@R: 
     c(person("Edgar", "Ortiz-Brizuela", email = "edgar.ortiz-brizuela@mail.mcgill.ca", role = c("aut"),
            comment = c(ORCID = "0000-0001-7169-8459")),
