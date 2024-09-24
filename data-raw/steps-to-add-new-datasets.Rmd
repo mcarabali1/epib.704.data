@@ -7,6 +7,9 @@ editor_options:
   chunk_output_type: console
 ---
 
+Instructions modified from: https://rstudio4edu.github.io/rstudio4edu-book/data-pkg.html
+
+
 1. Copy and paste the original dataset in the `data-raw` folder.
 2. Open the `load_data.R` file in the `data-raw folder`
 3. Write the code needed to read the new dataset.  
@@ -59,6 +62,15 @@ devtools::install()
 ```
 
 17. Push everything to GitHub using GitHub desktop.
+18. Anyone can now install your package with the following code, substituting the field in quotes with your own GitHub username and package name:
+
+```{r}
+# install.packages("remotes")
+remotes::install_github("mcarabali1/epib.704.data")
+```
+
+
+
 
 
 
