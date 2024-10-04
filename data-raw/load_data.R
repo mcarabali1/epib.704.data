@@ -19,11 +19,14 @@ db_pd_sep22pm<-haven::read_dta("data-raw/db_pd_sep22pm.dta")
 # 6. covidkenya, answer yes
 covidkenya<-read.csv("data-raw/covidkenya.csv")
 
+# 7. dietepib704, answer yes
+dietepib704<-read.csv("data-raw/dietepib704.csv")
+
 # usethis
 usethis::use_data(plato,  
                   births,
                   sampledata,
                   sbdata1,
-                  db_pd_sep22pm,
                   covidkenya,
+                  dietepib704,
                   overwrite = TRUE)
