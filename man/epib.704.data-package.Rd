@@ -6,7 +6,7 @@
 \alias{epib.704.data-package}
 \title{epib.704.data: Data for EPIB 704 Assignments}
 \description{
-This R package contains datasets specifically for use in EPIB 704 assignments, including data related to various epidemiological studies and assignments.
+This R package contains datasets specifically for use in EPIB 704 assignments, including 'opendata' datasets related to various epidemiological studies. The use of these datasets is only for academic, dydactic, illustrative, and pedagogical purposes.
 }
 \author{
 \strong{Maintainer}: Mabel Carabali \email{mabel.carabali@mcgill.ca} (\href{https://orcid.org/0000-0002-9171-0483}{ORCID})

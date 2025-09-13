@@ -19,11 +19,22 @@ covidkenya<-read.csv("data-raw/covidkenya.csv")
 # 6. dietepib704, answer yes
 dietepib704<-read.csv("data-raw/dietepib704.csv")
 
+# 7. VL_Nigeria, answer yes
+VL_Nigeria <- read.csv("data-raw/VL_Nigeria.csv")
+  
+# 8. Covid_Bangladesh, answer yes
+Covid_Bangladesh <- read.csv("data-raw/Covid_Bangladesh.csv")
+
+# 9. Amazonas_HQoL, answer yes
+Amazonas_HQoL<- read.csv("data-raw/Amazonas_HQoL.csv")
+
 # usethis
-usethis::use_data(plato,  
-                  births,
+usethis::use_data(births,
                   sampledata,
                   sbdata1,
                   covidkenya,
                   dietepib704,
+                  VL_Nigeria,
+                  Covid_Bangladesh,
+                  Amazonas_HQoL,
                   overwrite = TRUE)
