@@ -5,7 +5,7 @@
 #'
 #' Reference Source: Obasa GB, Ijaiya M, Okwor E, Dare B, Emerenini F, Oladigbolu R, et al. (2024) Factors associated with viral load re-suppression after enhanced adherence counseling among people living with HIV with an initial high viral load result in selected Nigerian states. PLOS Glob Public Health 4(11): e0002876. https://doi.org/10.1371/journal.pgph.0002876
 #'
-#' @format A dataframe with 127198 rows and 25 columns:
+#' @format A dataframe with 127 198 rows and 25 columns:
 #' \describe{
 #'   \item{`VL result`}{Main outcome, continuous, VL in copies/mL}
 #'   \item{`Enhanced_Adherence_Counselling `}{Main Exposure, binary, "Yes", "No"} 
