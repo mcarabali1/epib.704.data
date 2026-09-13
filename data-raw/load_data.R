@@ -28,6 +28,13 @@ Covid_Bangladesh <- read.csv("data-raw/Covid_Bangladesh.csv")
 # 9. Amazonas_HQoL, answer yes
 Amazonas_HQoL<- read.csv("data-raw/Amazonas_HQoL.csv")
 
+# 10. tbidata_epib704, answer yes
+tbidata_epib704<- read_delim("data-raw/tbidata_epib704.csv",delim = ";", escape_double = FALSE, trim_ws = TRUE)
+
+
+# 11. cardsdata_epib704, 
+cardsdata_epib704<- read.csv("data-raw/cardsdata_epib704.csv")
+
 # usethis
 usethis::use_data(births,
                   sampledata,
@@ -37,4 +44,6 @@ usethis::use_data(births,
                   VL_Nigeria,
                   Covid_Bangladesh,
                   Amazonas_HQoL,
+                  cardsdata_epib704,
+                  tbidata_epib704,
                   overwrite = TRUE)

@@ -27,7 +27,7 @@ Instructions modified from: https://rstudio4edu.github.io/rstudio4edu-book/data-
 ```
 
 5. Run the `load_data.R` script and save it. A cleaned up .rda data file is now created in the folder called data/.
-6. Verify all data sets made it in your package by loading the package (Build pane > Click More > Load All or in the console using devtools::load_all()). And then call your dataset (e.g., plato, it should be in the environment, not needed as data, it is just loaded)
+6. Verify all data sets made it in your package by loading the package (Build pane > Click More > Load All or in the console using devtools::load_all()). And then call your dataset (e.g., births, it should be in the environment, not needed as data, it is just loaded)
 7. In the RStudio Build pane > click the `Check` button. The only warning should be that we need documentation from the new dataset, we will add it in the next steps. Another option is to use in the console: devtools::check(document=FALSE)).
 8. Document the dataset:7. Run in the console usethis::use_r() with your data set name in quotes, which will generate a new .R script that lives in an R/ folder.
 
