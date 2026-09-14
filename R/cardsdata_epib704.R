@@ -1,4 +1,4 @@
-#' cardsdata_epib70: Data on mortality due to COVID-19 related acute respiratory distress syndrome (ARDS) in Colombia
+#' cardsdata_epib704: Data on mortality due to COVID-19 related acute respiratory distress syndrome (ARDS) in Colombia
 #' 
 #' @description
 #' This data is from a publicly available 'open data' set from a peer reviewed manuscript. The study evaluated risk factors for in-hospital mortality in patients over 60 years old with COVID-19-related ARDS (C-ARDS) including the role of mechanical ventilation. Data is from an observational, analytical, retrospective study of a cohort that included all patients aged 60 years or older with a confirmed diagnosis of C-ARDS admitted to a high complexity hospital located in the city of Bogotá, Colombia, from March 2020 to July 31, 2022.

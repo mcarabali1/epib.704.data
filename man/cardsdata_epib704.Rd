@@ -3,7 +3,7 @@
 \docType{data}
 \name{cardsdata_epib704}
 \alias{cardsdata_epib704}
-\title{cardsdata_epib70: Data on mortality due to COVID-19 related acute respiratory distress syndrome (ARDS) in Colombia}
+\title{cardsdata_epib704: Data on mortality due to COVID-19 related acute respiratory distress syndrome (ARDS) in Colombia}
 \format{
 A dataframe with 1563 rows and 49 columns:
 \describe{
