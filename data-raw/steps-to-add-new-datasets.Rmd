@@ -46,7 +46,7 @@ Instructions modified from: https://rstudio4edu.github.io/rstudio4edu-book/data-
 ```
 
 13. Now, open the DESCRIPTION file and update the version number.
-14. Check again for any issue using devtools::check(document=FALSE)) in the console. 
+14. Check again for any issue using devtools::check(document=FALSE) in the console. 
 15. Add the package documentation using the following code in the console (answer absolutely yes):
 
 ```{r}

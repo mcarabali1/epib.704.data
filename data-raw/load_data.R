@@ -29,7 +29,7 @@ Covid_Bangladesh <- read.csv("data-raw/Covid_Bangladesh.csv")
 Amazonas_HQoL<- read.csv("data-raw/Amazonas_HQoL.csv")
 
 # 10. tbidata_epib704, answer yes
-tbidata_epib704<- read_delim("data-raw/tbidata_epib704.csv",delim = ";", escape_double = FALSE, trim_ws = TRUE)
+tbidata_epib704<- read.csv("data-raw/tbidata_epib704.csv")
 
 
 # 11. cardsdata_epib704, 
